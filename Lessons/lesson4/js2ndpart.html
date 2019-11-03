@@ -24,7 +24,9 @@
     
     
     <script>
+        
         'use strict'
+        
         const reverse = (str) => {
             let str2 = '';
             for(let i = str.length - 1; i >= 0; i -= 1) {
@@ -62,6 +64,19 @@
 //         console.log("99: " +isPrime(99));
 //         console.log("17: " + isPrime(17));
 //         console.log("0: " + isPrime(0));
+        let user = {
+            name : "Tolya",
+            age : "20"
+        };
+        
+        let json = JSON.stringify(user);
+        alert(json);
+//        let mas = new mas Array(); ДВА ВИДА СОЗДАНИЯ ПУСТОГО МАССИВА
+//        let arr = [];
+        let mas = ["one", "two", "three"];
+        alert(mas[0]);
+        alert(mas);
+        
     </script>
     
     

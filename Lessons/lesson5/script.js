@@ -8,10 +8,17 @@ function add() {
     but2.after("<h1>Hello world!21</h1?>");
 }
 
+
+
+
+let colors = ["none", "none", "none", "none", "none", "none", "none", "none", "none"]
+
+
 var current = "darksalmon";
 function turn(number) {
-    $("#s"+number).css("background-color", current)
-    
+    $("#s"+number).css("background-color", current);
+    colors[number - 1] = current;
+    console.log(colors);
     if(current === "darksalmon") {
         current = "palegoldenrod";
     } else {

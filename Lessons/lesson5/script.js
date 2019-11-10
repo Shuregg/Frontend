@@ -22,7 +22,7 @@ function turn(number) {
 //         backgroundColor: current
 //     }, 500);
     colors[number - 1] = current;
-    console.log(colors);
+    //console.log(colors);
     if (current === "darksalmon") {
         current = "palegoldenrod";
     } else {

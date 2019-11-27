@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="siteDesign.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Home</title>
+    <title>Registrtion page</title>
 </head>
 
 <body>
@@ -43,47 +42,19 @@
             </div>
         </div>
     </div>
-    <h1 align="center">Well, hello there!</h1>
-<div class="container">
-        <div class="row">
-          
-            <div class="col">
-                Information
+    <h1 align="center">Add a new film to the list!</h1>
+
+    <div class="container">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Title, rating and age</span>
             </div>
+            <input type="text" aria-label="Name" class="form-control">
+            <input type="text" aria-label="Rating" class="form-control">
+            <input type="text" aria-label="Age" class="form-control">
+              <button align="center" type="button" class="btn btn-primary">Add</button>
         </div>
-        <div class="col">
-            <div class="row">
-                <ul class="list-group list-group-flush">
-                   <li class="list-group-item">Чак Норрис никогда не спит. Он выжидает.</li>
-                </ul>
-                <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
-            </div>
-           
-        </div>
-             <div class="col">
-                <div class="row">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Чак Норрис досчитал до бесконечности. Дважды.</li>
-                    </ul>
-                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
-                 </div>
-            </div>
-        <div class="col">
-                <div class="row">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Под бородой Чака Норриса нет подбородка. Там еще один кулак.</li>
-                    </ul>
-                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
-                 </div>
-            </div>
-        <div class="col">
-                <div class="row">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Чак Норрис может выговаривать «ъ» с закрытым ртом.</li>
-                    </ul>
-                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
-                 </div>
-            </div>
+      
     </div>
 
 

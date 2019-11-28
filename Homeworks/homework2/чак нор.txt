@@ -1,0 +1,40 @@
+<div class="row">
+          
+            <div class="col">
+                Information
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="list-group list-group-flush">
+                   <li class="list-group-item">Чак Норрис никогда не спит. Он выжидает.</li>
+                </ul>
+                <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+           
+        </div>
+             <div class="row">
+                <div class="col">
+                    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Чак Норрис досчитал до бесконечности. Дважды.</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
+                 </div>
+            </div>
+        <div class="row">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Под бородой Чака Норриса нет подбородка. Там еще один кулак.</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
+                 </div>
+            </div>
+        <div class="row">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Чак Норрис может выговаривать «ъ» с закрытым ртом.</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary">Edit</button> <button type="button" class="btn btn-danger">Delete</button>
+                 </div>
+            </div>
